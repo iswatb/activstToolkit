@@ -5,7 +5,7 @@ var quote = document.getElementById("quote");
 var factGenerator = document.getElementById("factGenerator");
 var count = 0;
 
-factGenerator.addEventListener("click", displayQuote);
+factGenerator.addEventListener("click", displayQuote); 
 
 function displayQuote(){
   quote.innerHTML = quoteList[count];
